@@ -1,0 +1,10 @@
+{
+  "alias": "Aqualady",
+  "birthname": "Something else",
+  "dob": "2003-09-01",
+  "cape": false,
+  "powers": ["Swimming", "Flying"],
+  "img": "https://s3.amazonaws.com/comicgeeks/characters/avatars/10609.jpg?t=1615481560",
+  "gender": "woman",
+  "species": "fish"
+}
