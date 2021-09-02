@@ -120,9 +120,30 @@ h3 {
   color: darkgrey;
 }
 
+h2 {
+  font-size: 1rem;
+
+  font-family: "Raleway";
+  color: black;
+}
+
 p {
+  font-size: 0.8rem;
+  font-family: "Raleway";
+}
+
+.readmore {
+  font-size: 0.8rem;
+  font-family: "Raleway";
+  color: black;
+  text-align: end;
+}
+
+.price {
   font-size: 1rem;
   font-family: "Raleway";
+  color: black;
+  text-align: left;
 }
 
 /* Product List */
@@ -164,4 +185,94 @@ p {
 .discounted p:last-child {
   background: var(--off-color);
   padding: 0.2rem;
+}
+
+.container {
+  margin: 20px auto;
+  margin-left: 150px;
+  width: 1000px;
+  height: 500px;
+
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-row: auto auto;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.box {
+  background-color: rgb(137, 137, 148);
+  padding: 20px;
+  border-radius: 10px;
+  color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+
+.yellowbox {
+  background-color: #eeda69;
+  padding: 20px;
+  border-radius: 10px;
+  color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+
+.orangebox {
+  background-color: #eb8117;
+  padding: 20px;
+  border-radius: 10px;
+  color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+
+.bluebox {
+  background-color: #28466b;
+  padding: 20px;
+  border-radius: 10px;
+  color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+
+.greenbox {
+  background-color: #acb853;
+  padding: 20px;
+  border-radius: 10px;
+  color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: sans-serif;
+  text-decoration-line: none;
+}
+
+.greenbox a {
+  text-decoration-line: none;
+}
+
+.yellowbox a {
+  text-decoration-line: none;
+}
+
+.bluebox a {
+  text-decoration-line: none;
+}
+
+.orangebox a {
+  text-decoration-line: none;
 }
