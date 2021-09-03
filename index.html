@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav {
+            background: grey;
+            display: flex;
+            gap: 1rem;
+        }
+
+        nav a:first-child {
+            margin-right: auto;
+        }
+
+        nav a {
+            color: white;
+            font-size: 2rem;
+            transition: all 0.3s 0.1s;
+        }
+
+        nav a:hover {
+            color: black;
+            background: white;
+        }
+
+        .awesome {
+            transform: translate(50vw, 50vh)
+        }
+
+        button {
+            transition: all 1s;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="#"> Home </a>
+        <a href="#"> About Us </a>
+        <a href="#"> Contact </a>
+        <a href="#"> Settings </a>
+    </nav>
+
+    <button> Click me</button>
+
+    <script>
+        document.querySelector("button").addEventListener("click", (e) => {
+            e.target.classList.add("awesome");
+        })
+    </script>
+</body>
+
+</html>
